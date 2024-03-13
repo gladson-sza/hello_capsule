@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (SaudarUsuario) {
+       accepted-inputs (frase)
+       local-endpoint (SaudarUsuario.js)
+    }
+  }
+}

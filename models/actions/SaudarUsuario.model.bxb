@@ -1,0 +1,11 @@
+action (SaudarUsuario) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (frase) {
+      type (Frase)
+      min (Optional) max (One)
+    }
+  }
+  output (Saudacao)
+}
